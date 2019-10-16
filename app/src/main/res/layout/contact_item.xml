@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/contactBackground">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/rounded_background"
+        android:padding="5dp"
+        android:src="@drawable/person"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/txv_contact_name"/>
+
+    <TextView
+        android:id="@+id/txv_contact_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Elsa"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/txv_phone_number"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@id/btn_share_location"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txv_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="phone number"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_share_location"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/txv_contact_name" />
+
+    <Button
+        android:id="@+id/btn_share_location"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_background"
+        android:text="@string/share_location"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/txv_contact_name"
+        app:layout_constraintEnd_toStartOf="@id/btn_ask_for_location"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ask_for_location"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_background"
+        android:text="@string/ask_for_location"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_share_location"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

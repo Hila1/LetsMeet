@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "619828349603",
+    "firebase_url": "https://letsmeet-1b0f2.firebaseio.com",
+    "project_id": "letsmeet-1b0f2",
+    "storage_bucket": "letsmeet-1b0f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619828349603:android:bce4245f16dd1a78",
+        "android_client_info": {
+          "package_name": "shulamit.hila.letsmeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619828349603-fb9v16lfe9df98hsk7j5e858f43kr39b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shulamit.hila.letsmeet",
+            "certificate_hash": "1608c6cc76b2b7c714161ea028df9d5e6356ad82"
+          }
+        },
+        {
+          "client_id": "619828349603-jgdil5kbg94sfeudt26i72t1krntivse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7yJPq_5_b4WIb3a8ese5nzICI9tdNJAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619828349603-jgdil5kbg94sfeudt26i72t1krntivse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity"
+    android:padding="20dp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:text="@string/title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/txv_user_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/txv_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_name"
+        android:padding="10dp"
+        android:background="@drawable/rounded_background"
+        app:layout_constraintBottom_toTopOf="@+id/txv_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title"
+        />
+    <EditText
+        android:id="@+id/txv_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/pre_number"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:background="@drawable/rounded_background"
+        app:layout_constraintBottom_toTopOf="@+id/btn_send_code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_user_name"
+        />
+
+    <Button
+        android:id="@+id/btn_send_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_code"
+        android:background="@drawable/rounded_full"
+        android:shadowColor="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/btn_send_again"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_number" />
+
+   <Button
+        android:id="@+id/btn_send_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_code_again"
+        android:background="@drawable/rounded_full"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@+id/btn_send_code"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/txv_code"/>
+    <EditText
+        android:id="@+id/txv_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/code"
+        android:ems="10"
+        android:padding="10dp"
+        android:background="@drawable/rounded_background"
+        app:layout_constraintTop_toBottomOf="@+id/btn_send_again"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ok"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:background="@drawable/rounded_full"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@+id/txv_code"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+-->
+</android.support.constraint.ConstraintLayout>

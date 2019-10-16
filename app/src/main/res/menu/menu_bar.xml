@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_history"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="history"
+        app:showAsAction="always"
+        ></item>
+    <item
+        android:id="@+id/item_contacts"
+        android:icon="@drawable/ic_contacts_black_24dp"
+        android:title="contacts"
+        app:showAsAction="always"
+        ></item>
+    <item
+        android:id="@+id/item_saves"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="saves"
+        app:showAsAction="always"
+        ></item>
+    <item
+            android:icon="@drawable/ic_more_vert_black_24dp"
+            android:title="details"
+            app:showAsAction="always">
+
+            <menu>
+                <item
+                    android:id="@+id/ic_about"
+                    android:icon="@mipmap/ic_launcher_face"
+                    android:title="About"
+                    app:showAsAction="ifRoom"
+                    ></item>
+                <item
+                    android:id="@+id/ic_exit"
+                    android:icon="@mipmap/ic_launcher_exit"
+                    android:title="exit"
+                    app:showAsAction="ifRoom"
+                    ></item>
+                <item
+                    android:id="@+id/ic_share"
+                    android:icon="@mipmap/ic_launcher_share_round"
+                    android:title="Share App"
+                    app:showAsAction="ifRoom"
+                    ></item>
+            </menu>
+        </item>
+
+    </menu>

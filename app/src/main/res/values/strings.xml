@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Let\'s Meet</string>
+    <string name="title_activity_maps">Let\'s Meet</string>
+    <string name="about_title">About Let\'s Meet</string>
+    <string name="about">This app lets you share and get position with your contacts and easily navigate to them.\nBy Shulamit and Hila 2019</string>
+    <string name="exit_title">Exit Let\'s Meet?</string>
+    <string name="exit_qustion">Are you sure you want to exit this really awesome app? (we worked on it really hard!)</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="history">HISTORY LIST</string>
+    <string name="contacts">CONTACTS LIST</string>
+    <string name="saved_position">SAVED POSITIONS LIST</string>
+    <string name="share_location">share my location</string>
+    <string name="ask_for_location">Ask for location</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">register!</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="send_code">send code</string>
+    <string name="send_code_again">send again</string>
+    <string name="register">register</string>
+    <string name="number">number</string>
+    <string name="code">  code</string>
+    <string name="title">Register to Let\'s Meet</string>
+    <string name="go_there">GO!</string>
+    <string name="share_app">share app</string>
+    <string name="pre_number">+972</string>
+    <string name="gps_state">GPS state</string>
+    <string name="mapbox_access_token">"pk.eyJ1IjoiaGlsYWcxOTk3IiwiYSI6ImNqeGFtZW16YjE0ODUzc3A3cnQ5MXJlZ3QifQ.p7VCgWpUi0gbNRiTjWDiPg"</string>
+    <string name="go_to_second">go to second location</string>
+    <string name="take_me_there">take me there!</string>
+    <string name="saves_activity">SAVED LOCATION</string>
+    <string name="enter_name">enter your name</string>
+    <string name="splash_message">The path to everyone!</string>
+    <string name="share_message">
+        Hey, I found this really cool app for sharing locations and routing!\n
+        you should download it too!\n
+        https://drive.google.com/drive/folders/12pP0t5POrISXA6SysjE5Ohs77ELHsy8A?usp=sharing
+        \n
+    </string>
+</resources>
